@@ -10,15 +10,42 @@ Lilás #5f2c82
     background: #5f2c82;
 }
 
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+section {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+   
+section > div#imagem{
+    width: 290px;                     /* largura da imagem */
+    height: 235px;                    /* altura da imagem */
+    background-color: #5f2c82;
+    overflow: hidden;
+    background-image: url('../Projeto-login/imagens/metal.jpg');
+    background-repeat: no-repeat;
+    object-position: left bottom;
+    object-fit: cover;              /* corrigir isso aqui na proxima aula */
+}
+
+
 section > div#formulario{
     background: white;
-    width: 300px;       /* largura fixa */
-    padding: 20px;      /* espaço interno */
-    border-radius: 10px; /* cantos arredondados */
+    padding: 20px;                    /* espaço interno */
+    
     display: flex;
     align-items: center;
     justify-content: center;
 
+    width: 250px;                     /* largura do formulário */
+    height: 200px;                    /* altura do formulário */
     
 }
 
