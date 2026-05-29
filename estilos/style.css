@@ -16,23 +16,26 @@ body{
   height: 100%;
 }
 
-section {
+section#login {
     
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;              /* bordas arredondadas */
+    overflow: hidden;                /* esconde o conteúdo que ultrapassa os limites do elemento */
 }
    
-section > div#imagem{
+ div#imagem{
     width: 290px;                     /* largura da imagem */
-    height: 235px;                    /* altura da imagem */
-    background-color: #5f2c82;
+    height: 200px;                    /* altura da imagem */
+    background: #5f2c82 url('../Projeto-login/imagens/metal.jpg');
+    
     overflow: hidden;
-    background-image: url('../Projeto-login/imagens/metal.jpg');
-    background-repeat: no-repeat;
-    object-position: left bottom;
-    object-fit: cover;              /* corrigir isso aqui na proxima aula */
+    display: flex;
+    
+    
+    
 }
 
 
