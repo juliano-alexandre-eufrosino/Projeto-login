@@ -15,6 +15,27 @@
 /* ====== Desktop (a partir de 1025px) ====== */
 
 @media screen and (min-width: 1025px) {
-   
 
-  
+section{
+    display: flex;
+   
+}
+
+div#imagem{
+    
+    height: 340px;
+    width: 450px;
+    
+    
+}
+
+section > div#formulario{
+    height: 300px;
+    width: 450px;
+    background-color: #0980c0c2;
+}
+
+
+
+
+}
