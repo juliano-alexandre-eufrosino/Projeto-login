@@ -15,10 +15,6 @@
 /* ====== Desktop (a partir de 1025px) ====== */
 
 @media screen and (min-width: 1025px) {
-    img.fundo{
-         object-fit: contain;              /* ajusta a imagem para cobrir toda a área disponível */          
-                
-    }
-}
+   
 
   

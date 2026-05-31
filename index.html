@@ -8,7 +8,23 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
     <body>
-        <img src="imagens/predioschiques.jpg" class="fundo">
+        <img src="imagens/predioschiques.jpg" class="fundo" alt="arranhacel">
+
+        <script>
+  const arranhacel = document.querySelector(".fundo");
+
+  function atualizarImagem() {
+    if (window.matchMedia("(max-width: 1024px)").matches) {
+      arranhacel.src = "imagens/predioschiques.jpg";
+    } else if (window.matchMedia("(min-width: 1025px)").matches) {
+      arranhacel.src = "imagens/arranhacel.jpg";
+    }
+  }
+
+  atualizarImagem();
+  window.addEventListener("resize", atualizarImagem);
+        </script>
+  
 
             <section id="login">
 
