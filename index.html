@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
+
+    <link rel="icon"  type="image/.ico" href="../Projeto-login/imagens/favicon-16x16.png">
+
     <body>
         <img src="imagens/predioschiques.jpg" class="fundo" alt="arranhacel">
+
+
 
         <script>
   const arranhacel = document.querySelector(".fundo");
@@ -24,6 +29,22 @@
   atualizarImagem();
   window.addEventListener("resize", atualizarImagem);
         </script>
+
+        <form id="loginForm">
+  <label for="usuario">Usuário:</label>
+  <input type="text" id="usuario" name="usuario">
+
+  <label for="senha">Senha:</label>
+  <input type="password" id="senha" name="senha">
+
+  
+
+
+  <button type="submit">Entrar</button>
+</form>
+
+
+
   
 
             <section id="login">
