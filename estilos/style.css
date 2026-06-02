@@ -79,7 +79,11 @@ form{
   font-size: 15px;
 }
 
-
+h1{
+  align-items: center;
+  font-size: medium;
+  font-family: open sans, sans-serif;
+}
 
 
 
