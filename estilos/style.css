@@ -63,7 +63,8 @@ section > div#formulario{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
+    
     width: 250px;                     /* largura do formulário */
     height: 200px;                    /* altura do formulário */
     
@@ -77,6 +78,7 @@ form{
   gap: 12px;
   font-family: open sans, sans-serif;
   font-size: 15px;
+  
 }
 
 h1{
@@ -91,11 +93,32 @@ button {
   background: rgb(163, 158, 158);
   color: white;
   border: solid rgba(0, 0, 0, 0.158) 1px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   cursor: pointer;
-  
+  margin-bottom: 25px;
+  margin-top: 5px;
+  border-radius: 4px;
 }
 
 button:hover {
   background: #49a09d;
 }
+
+a{
+  font-size: 0.6em;
+  text-decoration: none;
+}
+
+a:hover{
+  font-size: 0.6em;
+  font-weight: normal;
+  color: #580e8a;
+  text-decoration: underline;
+}
+
+form > input{
+  display: inline-block;
+  border-radius: 4px;
+ 
+}
+
